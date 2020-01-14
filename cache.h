@@ -11,7 +11,7 @@
 extern "C" {
 #endif
 
-typedef struct block {
+typedef struct block  {
 	curl_off_t	start;
 	size_t		size;
 	char		*data;
